@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/all-style.css" media="screen">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <section>
+        <div id="image"></div>
+        <div id="form">
+            <h1>Login</h1>
+            <p class="box-space">Seja bem-vindo(a) novamente. Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente.</p>
+            <form action="login.js" method="post" autocomplete="on">
+                <div class="box">
+                    <label for="email"><span class="material-icons">person</span></label>
+                    <input type="email" name="email" id="email" required placeholder="e-mail" autocomplete="email">
+                </div>
+                <div class="box">
+                    <label for="senha"><span class="material-icons">vpn_key</span></label>
+                    <input type="password" name="senha" id="senha" required minlength="8" placeholder="sua senha">
+                </div>
+                <input class="button box-space" type="submit" value="Entrar">
+                <input class="button box-space" type="button" value="Esqueci a senha">
+        </div>
+        </form>
+    </section>
+</body>
+</html>
