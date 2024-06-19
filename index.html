@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/all-style.css" media="all">
     <link rel="stylesheet" href="styles/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
-    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 992px) and (max-width: 1200px)">
-    <link rel="stylesheet" href="styles/tv.css" media="screen and (min-width: 1200px)">
+    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 992px)">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Login</title>
 </head>
@@ -19,14 +18,14 @@
             <form action="login.js" method="post" autocomplete="on">
                 <div class="box">
                     <label for="email"><span class="material-icons">person</span></label>
-                    <input type="email" name="email" id="email" required placeholder="e-mail" autocomplete="email">
+                    <input type="email" name="email" id="email" required placeholder="Seu e-mail" autocomplete="email" maxlength="30">
                 </div>
                 <div class="box">
                     <label for="senha"><span class="material-icons">vpn_key</span></label>
-                    <input type="password" name="senha" id="senha" required minlength="8" placeholder="sua senha">
+                    <input type="password" name="senha" id="senha" required placeholder="Sua senha" autocomplete="current-password" minlength="8" maxlength="20">
                 </div>
                 <input class="button box-space" type="submit" value="Entrar">
-                <input class="button box-space" type="button" value="Esqueci a senha">
+                <a href="esqueci.html">Esqueci a senha <span class="material-icons">mail</span></a>
         </div>
         </form>
     </section>
