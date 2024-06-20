@@ -9,6 +9,8 @@ section {
 }
 
 section > div#image {
+    background-image: url(../images/pexels-scottwebb-2516426.jpg);
+    background-position: center center;
     float: left;
     width: 30%;
     height: 100%;
