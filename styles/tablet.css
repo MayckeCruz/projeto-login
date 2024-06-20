@@ -6,6 +6,7 @@ body {
 
 section {
     width: 80vw;
+    height: 280px;
 }
 
 section > div#image {
@@ -19,4 +20,8 @@ section > div#image {
 section > div#form {
     float: right;
     width: 70%;
+}
+
+div#form > p {
+    margin: 10px 0px;
 }
